@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Pessoas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="form-container">
+            <h1>Cadastro de Pessoas</h1>
+            <form id="cadastroForm">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" required>
+                
+                <label for="dataNascimento">Data de Nascimento:</label>
+                <input type="date" id="dataNascimento" required>
+                
+                <label for="telefone">Telefone:</label>
+                <input type="tel" id="telefone" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" required>
+                
+                <button type="submit" id="cadastrarButton">Cadastrar</button>
+                <button id="saveButton" style="display: none;">Salvar</button>
+            </form>
+        </div>
+        <div class="list-container">
+            <h2>Lista de Pessoas Cadastradas</h2>
+            <input type="text" id="searchInput" placeholder="Buscar por nome...">
+            <ul id="listaPessoas"></ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
