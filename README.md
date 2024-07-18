@@ -2,6 +2,8 @@
 
 Um sistema eficiente e intuitivo para gerenciar uma lista de pessoas através de uma interface web, desenvolvido em JavaScript.
 
+![Imagem](lista-cadastro.png)
+
 ## Visão Geral
 
 Este projeto implementa um sistema para armazenamento de dados cadastrais que permite criar, visualizar, editar e excluir registros de indivíduos. Utiliza o padrão Factory para a criação de objetos pessoa e armazenamento local (localStorage) para garantir a persistência dos dados entre sessões. A interface é projetada para oferecer uma experiência amigável e responsiva ao usuário, com recursos avançados de filtragem por nome e interatividade em tempo real.
