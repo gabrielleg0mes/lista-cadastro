@@ -1,33 +1,42 @@
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
-    margin: 0;
-    padding: 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .container {
     display: flex;
+    justify-content: center;
     background-color: #fff;
     padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
+    width: 80%;
+    max-width: 1200px;
 }
 
-.form-container {
-    width: 300px;
-    margin-right: 20px;
-}
-
+.form-container,
 .list-container {
-    width: 300px;
+    width: 50%;
+    padding: 20px;
 }
 
-h1, h2 {
+h1,
+h2 {
     text-align: center;
+    color: #007BFF;
+    margin-bottom: 20px;
+    font-size: 24px;
+    margin-top: 10px
 }
 
 form {
@@ -37,21 +46,26 @@ form {
 
 label {
     margin-top: 10px;
+    font-weight: bold;
 }
 
-input {
-    padding: 8px;
+input,
+button {
+    padding: 12px;
     margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 button {
-    margin-top: 20px;
-    padding: 10px;
     background-color: #007BFF;
     color: white;
     border: none;
-    border-radius: 5px;
     cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 
 button:hover {
@@ -61,25 +75,38 @@ button:hover {
 ul {
     list-style-type: none;
     padding: 0;
+    margin-top: 10px;
 }
 
 li {
-    padding: 10px;
+    padding: 12px;
     border: 1px solid #ddd;
-    margin-top: 5px;
+    margin-top: 10px;
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
+    align-items: flex-start;
 }
 
 li button {
-    background-color: #DC3545;
+    background-color: #e10e2b;
     border: none;
     color: white;
-    border-radius: 3px;
+    border-radius: 5px;
     cursor: pointer;
-    margin-left: 5px;
+    margin-top: 2px;
+    padding: 2px 3px;
+    transition: background-color 0.3s ease;
+    display: block;
+    width: 50px;
+    font-size: 15px;
 }
 
 li button:hover {
     background-color: #c82333;
+}
+
+#searchInput {
+    margin-top: 32px;
+    margin-bottom: 10px;
 }
