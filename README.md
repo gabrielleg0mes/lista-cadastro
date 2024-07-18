@@ -2,7 +2,7 @@
 
 Um sistema eficiente e intuitivo para gerenciar uma lista de pessoas através de uma interface web, desenvolvido em JavaScript.
 
-![Imagem](lista-cadastro.png)
+![Imagem](lista-cadastroprint.png)
 
 ## Visão Geral
 
