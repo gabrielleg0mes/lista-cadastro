@@ -1,10 +1,10 @@
-## Sistema de Gerenciamento de Pessoas em JavaScript
+## Sistema em JavaScript para Armazenamento de Dados Cadastrais
 
 Um sistema eficiente e intuitivo para gerenciar uma lista de pessoas através de uma interface web, desenvolvido em JavaScript.
 
 ## Visão Geral
 
-Este projeto implementa um sistema de gerenciamento de pessoas que permite criar, visualizar, editar e excluir registros de indivíduos. Utiliza o padrão Factory para a criação de objetos pessoa e armazenamento local (localStorage) para garantir a persistência dos dados entre sessões. A interface é projetada para oferecer uma experiência amigável e responsiva ao usuário, com recursos avançados de filtragem por nome e interatividade em tempo real.
+Este projeto implementa um sistema para armazenamento de dados cadastrais que permite criar, visualizar, editar e excluir registros de indivíduos. Utiliza o padrão Factory para a criação de objetos pessoa e armazenamento local (localStorage) para garantir a persistência dos dados entre sessões. A interface é projetada para oferecer uma experiência amigável e responsiva ao usuário, com recursos avançados de filtragem por nome e interatividade em tempo real.
 
 ## Funcionalidades
 
@@ -30,7 +30,15 @@ Este projeto implementa um sistema de gerenciamento de pessoas que permite criar
    - Clique em "Excluir" para remover uma pessoa da lista.
    - Use o campo de busca para encontrar pessoas por nome.
 
+## Dificuldades Enfrentadas
+
+Durante o desenvolvimento, enfrentei desafios significativos que impactaram o processo:
+
+- Git: Inicialmente, não tinha experiência prévia com Git, o que dificultou a compreensão de conceitos como commits e merges. Através do curso da trilha e alguns materiais, consegui superar esse obstáculo.
+
+- JavaScript: Apesar de ter alguma familiaridade com JavaScript, encontrei dificuldades ao lidar com comandos menos familiares. Com o curso da trilha e prática, consegui melhorar significativamente meu domínio da linguagem.
+
 ## Contato
 
 - Email: gabriellesouza1711@gmail.com
-- GitHub: https://github.com/gabrielleg0mes/lista-cadastro
+- GitHub: github.com/gabrielleg0mes
