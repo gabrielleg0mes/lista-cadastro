@@ -1,2 +1,3 @@
-# lista-cadastro
-Sistema em Java Script para armazenamento de dados cadastrais.
+## Introdução
+### Como funciona o projeto:
+Este projeto....
